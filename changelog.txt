@@ -1,3 +1,15 @@
+2025-07-28 - Added comprehensive MCP servers and installation script
+- Created install-mcp-servers.sh for one-command installation
+- Added 6 new MCP servers with detailed descriptions:
+  - Sequential Thinking: Step-by-step reasoning capabilities
+  - Puppeteer: Browser automation for web scraping and testing
+  - Web Fetching: Lightweight web content extraction
+  - Playwright: Modern cross-browser automation
+  - Context7: Advanced context management with Upstash
+  - Xcode Build Helper: iOS/macOS development integration
+- Updated README with quick installation instructions
+- Made installation script executable
+
 2025-07-28 - Initial repository creation
 - Created README.md with MCP server list and installation instructions
 - Added .gitignore for common files

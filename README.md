@@ -6,6 +6,22 @@ A curated list of Model Context Protocol (MCP) servers for global installation w
 
 This repository contains my personal collection of preferred MCP servers that I use globally with Claude Desktop. These servers extend Claude's capabilities by providing access to various tools and services.
 
+## Quick Installation
+
+Run this single command to install all recommended MCP servers:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/miwidot/claude-mcp/main/install-mcp-servers.sh | bash
+```
+
+Or clone the repository and run locally:
+
+```bash
+git clone https://github.com/miwidot/claude-mcp.git
+cd claude-mcp
+./install-mcp-servers.sh
+```
+
 ## Installation
 
 ### Prerequisites
@@ -61,6 +77,48 @@ Provides persistent memory capabilities across conversations.
 
 ```bash
 npm install -g @modelcontextprotocol/server-memory
+```
+
+### 6. **Sequential Thinking** (`@modelcontextprotocol/server-sequential-thinking`)
+Enables step-by-step reasoning and complex problem-solving capabilities. This server helps Claude break down complex tasks into manageable steps and maintain context throughout multi-stage operations.
+
+```bash
+npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+### 7. **Puppeteer Browser Automation** (`@modelcontextprotocol/server-puppeteer`)
+Provides browser automation capabilities using Puppeteer. Perfect for web scraping, automated testing, taking screenshots, and interacting with web applications programmatically.
+
+```bash
+npm install -g @modelcontextprotocol/server-puppeteer
+```
+
+### 8. **Web Fetching** (`@kazuph/mcp-fetch`)
+Simple and efficient web content fetching and extraction. This lightweight server focuses on quickly retrieving and processing web content without the overhead of full browser automation.
+
+```bash
+npm install -g @kazuph/mcp-fetch
+```
+
+### 9. **Playwright Browser Automation** (`@playwright/mcp`)
+Modern browser automation with support for Chrome, Firefox, and Safari. Playwright offers more robust cross-browser testing capabilities and better performance than traditional automation tools.
+
+```bash
+npm install -g @playwright/mcp@latest
+```
+
+### 10. **Context7** (`@upstash/context7-mcp`)
+Provides advanced context management and caching capabilities using Upstash. This server helps maintain conversation context and improves response consistency across multiple interactions.
+
+```bash
+npm install -g @upstash/context7-mcp@latest
+```
+
+### 11. **Xcode Build Helper** (`xcodebuildmcp`)
+Assists with Xcode project building, testing, and iOS development tasks. Essential for iOS/macOS developers, providing direct integration with Xcode's build system and tools.
+
+```bash
+npm install -g xcodebuildmcp@latest
 ```
 
 ## Configuration
