@@ -1,0 +1,5 @@
+2025-07-28 - Initial repository creation
+- Created README.md with MCP server list and installation instructions
+- Added .gitignore for common files
+- Added MIT LICENSE file
+- Initialized git repository with feature branch
